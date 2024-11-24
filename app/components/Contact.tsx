@@ -51,8 +51,8 @@ const Contact = () => {
       <div className={`rounded-xl max-w-[500px] p-8 w-full transform transition-all duration-500 ${theme === 'dark' ? 'bg-black/80 text-white' : 'bg-gray-200 text-black'} 
         hover:scale-105 shadow-2xl ${theme === 'dark' ? 'shadow-white' : 'shadow-white'}`}>
 
-        <h2 className='text-5xl font-bold text-orange-400 mb-4 text-center'>Let's Connect</h2>
-        <p className={`text-center mb-6 ${theme === 'dark' ? 'text-white/70' : 'text-black/70'}`}>Send me a message and let's schedule a call</p>
+        <h2 className='text-5xl font-bold text-orange-400 mb-4 text-center'>Let&apos;s Connect</h2>
+        <p className={`text-center mb-6 ${theme === 'dark' ? 'text-white/70' : 'text-black/70'}`}>Send me a message and let&apos;s schedule a call</p>
 
         <form className='space-y-4' onSubmit={handleSubmit}>
           <div className='grid md:grid-cols-2 gap-4'>
